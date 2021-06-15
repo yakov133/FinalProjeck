@@ -1,0 +1,17 @@
+img{
+    width: 100px;
+    height: 450px;
+}
+.carosela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 100px 0px;
+}
+.carosela p,.carosela h3{
+    color: white    ;
+}
+.carousel-indicators li{
+    background-color: black !important;
+}

@@ -1,0 +1,10 @@
+p, .custom-radio{
+    padding-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .searchRecipe{
+      flex-direction: column;
+      }
+  }
+  
+  

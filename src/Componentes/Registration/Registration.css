@@ -1,0 +1,33 @@
+.header-h1 {
+  margin-bottom: 60px;
+}
+.form-group {
+  margin: 15px;
+}
+span {
+  font-size: 20px;
+}
+label {
+  margin-right: 3px;
+}
+#rotator img {
+  width: 50%;
+  height: 40%;
+}
+
+.space {
+  margin-bottom: 40px;
+}
+#rotator img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+#rotator img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}

@@ -1,0 +1,8 @@
+.firstHeader{
+    font-size: 25px;
+}
+.pad-left{padding-right: 20px;}
+
+.img{
+    object-fit: cover;
+}
