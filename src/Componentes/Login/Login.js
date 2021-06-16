@@ -20,6 +20,7 @@ export default function Login({ open }) {
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
             </Form.Text>
+            <a href="/registration">אין חשבון, לחץ כאן</a>
           </Form.Group>
 
           <div className="button-space">

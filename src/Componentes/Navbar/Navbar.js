@@ -60,7 +60,7 @@ function show(){
                {(userAfterLogin) ? "" : <Nav.Link onClick={()=>show()} >התחברות</Nav.Link>}
                {(userAfterLogin) ? <Nav.Link href="#deets">התנתקות</Nav.Link>: ""}
                <Nav.Link href="/about">אודות</Nav.Link>
-               <Nav.Link href="#deets">קהילה</Nav.Link>
+               <Nav.Link href="/community">קהילה</Nav.Link>
              </Nav>
              
 
