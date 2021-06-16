@@ -8,7 +8,6 @@ export default function About() {
       <Container className="middle">
         <Row className="row justify-content-center">
           <img
-            // className=" w-100 "
             className="pic-middle"
             src="https://img.mako.co.il/2019/01/26/1069373_I.jpg      "
             alt="First slide"
