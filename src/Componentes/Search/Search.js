@@ -1,7 +1,17 @@
 import "./search.css";
+import { getDifficulties,getRecipe } from "../DAL/api";
 import { Container, Row } from "react-bootstrap";
+import { useEffect, useState } from "react";
 
 export default function Search() {
+  const [dif, setdif] = useState(null);
+
+   useEffect(() => {
+    getDifficulties().then(data => { setdif(data);});
+  }, []); 
+
+
+  
   return (
     <>
       <Container>
@@ -40,6 +50,23 @@ export default function Search() {
           </div>
         </Row>
       </Container>
+      <Container >
+        <div class="input-group">
+          <select class="custom-select" id="inputGroupSelect04">
+            <option selected>Choose...</option>
+              {dif ? dif.map((level, index) => (
+                <option value={level.id}> {level.difficultyLevelName} </option>
+              )):""
+              }
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">
+              Button
+            </button>
+          </div>
+        </div>
+      </Container>
+      
     </>
   );
 }
